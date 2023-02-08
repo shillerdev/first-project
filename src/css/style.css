@@ -33,7 +33,7 @@ body {
   color: #ffffff;
 }
 
-.title {
+.header_title {
   margin-top: 53px;
   margin-bottom: 0;
   text-align: center;
@@ -45,11 +45,11 @@ body {
   color: #f9bf3b;
 }
 
-h2.title {
+h2.header_title {
   margin-top: 30px;
 }
 
-.title_big {
+.header_title_big {
   margin-top: 21px;
   margin-bottom: 0;
   text-align: center;
@@ -110,6 +110,57 @@ h2.title {
   display: block;
   margin: 0 auto;
   margin-top: 13px;
+}
+
+.wait {
+  padding: 85px 0 75px 0;
+  height: 604px;
+  background-color: #efefef;
+}
+
+.wait_title {
+  text-align: center;
+  margin: 0;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 23px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #252525;
+}
+
+.wait_divider {
+  margin: 0 auto;
+  margin-top: 19px;
+  width: 217px;
+  height: 4px;
+  background-color: #f9bf3b;
+}
+
+.wait_text {
+  text-align: center;
+  margin-top: 17px;
+  font-family: Roboto;
+  font-size: 23px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+.wrap {
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.wait_item {
+  width: 345px;
+}
+
+.wait_descr {
+  text-align: center;
+  margin-top: 33px;
 }
 
 
