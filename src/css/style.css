@@ -76,7 +76,7 @@ h2.header_title {
   color: #f9bf3b;
 }
 
-.header_btn {
+.button {
   display: block;
   margin: 0 auto;
   margin-top: 69px;
@@ -181,7 +181,7 @@ h2.header_title {
   margin-left: 396px;
   font-family: Roboto;
   font-size: 30px;
-  line-height: 12px;
+  line-height: 20px;
   font-weight: 900;
   text-transform: uppercase;
   color: #299cbd;
@@ -240,4 +240,70 @@ h2.header_title {
   line-height: 20px;
   font-weight: 300;
   color: #efefef;
+}
+
+.gift {
+  min-height: 628px;
+  padding: 86px 0 83px 0;
+  background-color: #efefef;
+}
+
+.gift_icon {
+  display: block;
+  margin: 0 auto;
+}
+
+.gift_text {
+  margin-top: 42px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 30px;
+  line-height: 43px;
+  font-weight: 400;
+  color: #252525;
+}
+
+.action {
+  min-height: 515px;
+  padding: 89px 0 64px 0;
+}
+
+.action_img {
+  display: block;
+  margin: 0 auto;
+}
+
+.action .title {
+  margin-top: 37px;
+}
+
+.action .optimization_title {
+  margin: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.action_text {
+  text-align: center;
+  margin-top: 25px;
+  font-family: Roboto;
+  font-size: 23px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #4a4a4a;
+}
+
+.footer {
+  min-height: 166px;
+  padding: 61px 0 69px 0;
+  background-color: #1a1a1a;
+}
+
+.footer_text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #888888;
 }
